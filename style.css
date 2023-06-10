@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} 
+#Musicplayer{
+    height: 485px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2),
+                0 10px 10px 0 rgba(0,0,0,0.19);
+    background-color: rgb(45, 33, 33);
+}
+#Header{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 35px 0px 0px;
+}
+#heart{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding:0px 80px 0px 0px;
+    margin: -25px;
+    cursor: pointer;
+}
+#heart :hover{
+   color: rgb(218, 22, 22);  
+}
+.Songimgs{
+    padding:30px 42px 0px 42px;
+}
+.Songimgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+#title{
+    padding-top: 45px;
+    color: white;
+}
+#artist{
+    padding-top: 10px;
+    color: white;
+}
+#bar{
+    padding: 10px;
+}
+#bar input{
+    -webkit-appearance: none;
+    width: 75%;
+    height: 3px;
+    cursor: pointer;
+}
+#bar input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 4px solid blanchedalmond;
+    
+   
+}
+#controls{
+    font-size: 20px;
+    padding: 20px 72px 0px 72px;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+  
+}
+#controls div{
+    height: 35px;
+    width: 35px;
+    background-color: #8d8983;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(255,26,26,0.22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
